@@ -1,0 +1,10 @@
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  max-width: 20rem;
+  color: blue;
+  background-color: aliceblue;
+  z-index: 100;
+}
