@@ -5,8 +5,8 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <AddUser />
       <p>From App.js</p>
+      <AddUser />
     </div>
   );
 }

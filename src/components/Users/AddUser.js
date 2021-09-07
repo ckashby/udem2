@@ -9,7 +9,7 @@ const AddUser = () => {
   return (
     <>
       <h1>Add User</h1>
-      <form>
+      <form onSubmit={onSub}>
         <label>Name</label>
         <input type="text" placeholder="Enter name" />
         <br />
