@@ -1,9 +1,9 @@
-const AddMeetupsPage = (props) => {
+const AddMeetupPage = (props) => {
   return (
     <>
-      <div>Add Meetups Page</div>
+      <div>Add Meetup Page</div>
     </>
   );
 };
 
-export default AddMeetupsPage;
+export default AddMeetupPage;
