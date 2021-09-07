@@ -6,7 +6,7 @@ const Modal = (props) => {
       <div className={classes.modal}>
         <h3>Modal Title</h3>
         <p>Modal content....</p>
-        <button>Close</button>
+        <button onClick={props.closeModal}>Close</button>
       </div>
     </>
   );
