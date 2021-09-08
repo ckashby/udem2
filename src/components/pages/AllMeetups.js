@@ -21,24 +21,24 @@ const DUMMY_DATA = [
   },
 ];
 
-const AllMeetupsPage = (props) => {
+const AllMeetupsPage = () => {
   return (
-    <>
+    <section>
       <div>All Meetups Page</div>
-      {DUMMY_DATA.map((data) => {
+      {DUMMY_DATA.map((meetup) => {
         return (
           <ul>
-            <li style={{ listStyle: "none" }}>
+            <li key={meetup.id}>
               <Meetup
-                title={data.title}
-                address={data.address}
-                description={data.description}
+                title={meetup.title}
+                address={meetup.address}
+                description={meetup.description}
               />
             </li>
           </ul>
         );
       })}
-    </>
+    </section>
   );
 };
 
