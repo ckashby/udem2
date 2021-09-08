@@ -1,4 +1,4 @@
-import Meetup from "../../components/Meetup/Meetup";
+import Meetup from "../meetups/Meetup/Meetup";
 
 const DUMMY_DATA = [
   {
@@ -27,7 +27,7 @@ const AllMeetupsPage = () => {
       <div>All Meetups Page</div>
       {DUMMY_DATA.map((meetup) => {
         return (
-          <ul>
+          <ul style={{ listStyle: "none" }}>
             <li key={meetup.id}>
               <Meetup
                 title={meetup.title}
