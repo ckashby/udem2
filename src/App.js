@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 
-import FavoritesPage from "./components/pages/Favorites";
 import AddMeetupPage from "./components/pages/AddMeetup";
 import AllMeetupsPage from "./components/pages/AllMeetups";
+import FavoritesPage from "./components/pages/Favorites";
+
 import MainNavigation from "./components/layout/MainNavigation/MainNavigation";
 
 function App() {
