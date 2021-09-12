@@ -5,12 +5,11 @@ import AddMeetupPage from "./components/pages/AddMeetup";
 import AllMeetupsPage from "./components/pages/AllMeetups";
 import FavoritesPage from "./components/pages/Favorites";
 
-import MainNavigation from "./components/layout/MainNavigation/MainNavigation";
+import Layout from "./components/layout/Layout/Layout";
 
 function App() {
   return (
-    <>
-      <MainNavigation />
+    <Layout>
       <Switch>
         <Route path="/" exact>
           <AllMeetupsPage />
@@ -22,7 +21,7 @@ function App() {
           <FavoritesPage />
         </Route>
       </Switch>
-    </>
+    </Layout>
   );
 }
 

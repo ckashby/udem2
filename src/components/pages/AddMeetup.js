@@ -1,8 +1,11 @@
+import AddMeetupForm from "../meetups/AddMeetupForm/AddMeetupForm";
+
 const AddMeetupPage = (props) => {
   return (
-    <>
-      <div>Add Meetup Page</div>
-    </>
+    <section>
+      <h3>Add Meetup Page</h3>
+      <AddMeetupForm />
+    </section>
   );
 };
 
