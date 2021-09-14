@@ -20,7 +20,7 @@ const AddMeetupForm = (props) => {
           </div>
           <div className={classes.control}>
             <label htmlFor="description">Description: </label>
-            <input type="text" required id="description" />
+            <textarea required id="description" rows="8" />
           </div>
         </form>
       </Card>
